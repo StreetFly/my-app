@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter';
+import Timer from './Timer';
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React Next Week
         </a>
       </header>
+      <Counter />
+      <Timer />
     </div>
   );
 }
